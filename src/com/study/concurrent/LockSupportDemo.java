@@ -6,7 +6,7 @@ import java.util.concurrent.locks.LockSupport;
  * 利用LockSupport.park和unpark实现线程的唤醒和等待
  *
  */
-public class ParkTest {
+public class LockSupportDemo {
 	private static Object object;
 
 	public static void main(String[] args) throws InterruptedException {
